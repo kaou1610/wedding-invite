@@ -285,6 +285,9 @@ $border-width: 2px;
         color: $primary;
         z-index: 2;
     }
+    .invite-box {
+        padding: 20px
+    }
 }
 
 .gallery-item {
@@ -351,5 +354,8 @@ $border-width: 2px;
 @media (max-width: 767.98px) {
     #event .border-right {
         border-right: none !important;
+    }
+    .invite-box {
+        padding: 12px;
     }
 }

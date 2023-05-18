@@ -9669,7 +9669,14 @@ a.text-dark:hover, a.text-dark:focus {
   margin-bottom: 30px;
 }
 
+.invite-box {
+  padding: 12px;
+}
+
 @media (min-width: 768px) {
+  .invite-box {
+    padding: 48px;
+  }
   .timeline::after {
     position: absolute;
     content: "";
